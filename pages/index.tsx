@@ -1,17 +1,26 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/Header'
+import Xbanner from '../components/Xbanner'
 
-
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div >
+    <div className={`relative h-screen bg-gradient-to-b  lg:h-[140vh] `}>
       <Head>
         <title>Roliglek </title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
- <h1>HEJJA!</h1>
+      <Header />
+      <main>
+        <Xbanner />
+        <section>
+          {/* Row */}
+          {/* Row */}
+          {/* Row */}
+          {/* Row */}
+          {/* Row */}
+        </section>
+      </main>
     </div>
   )
 }
