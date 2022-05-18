@@ -20,8 +20,8 @@ function Header() {
     }
   }, [])
   return (
-    <header className={`${isScrolled && 'bg-[#a63961]'}`}>
-      <div className="container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row">
+    <header className={`${isScrolled && 'bg-[#94c9e7]'}`}>
+      <div className=" container mx-auto mb-20 flex flex-col flex-wrap items-center p-5 md:flex-row">
         <Link href="/">
           <a className="title-font mb-4 flex items-center font-medium md:mb-0 md:w-1/5 md:justify-start">
             <img
@@ -30,7 +30,9 @@ function Header() {
               height={140}
               alt="logo"
             />
-            {/* <span className="ml-3 text-xl">RoligLek</span> */}
+            {/* <span className="ml-10 text-2xl md:text-5xl md:font-bold">
+              RoligLek
+            </span> */}
           </a>
         </Link>
         <nav className="hidden flex-wrap items-center justify-end text-base md:ml-auto md:flex md:w-4/5">

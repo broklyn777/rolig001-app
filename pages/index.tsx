@@ -4,22 +4,18 @@ import Xbanner from '../components/Xbanner'
 
 const Home = () => {
   return (
-    <div className={`relative h-screen bg-gradient-to-b  lg:h-[140vh] `}>
+    <div className={`relative  lg:h-[140vh] `}>
       <Head>
         <title>Roliglek </title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>
+      <main className="relative pl-4 pr-4 pb-24 lg:space-y-24 lg:pl-16 ">
         <Xbanner />
-        <section>
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-        </section>
+
+        <section className="md:space-y-24"></section>
+        {/* {showModal && <Modal />} */}
       </main>
     </div>
   )
